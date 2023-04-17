@@ -7,3 +7,4 @@ lazy val root = (project in file("."))
     name := "ProductArray",
     idePackagePrefix := Some("com.knoldus")
   )
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % Test
