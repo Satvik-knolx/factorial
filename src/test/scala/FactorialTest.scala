@@ -1,7 +1,7 @@
 package com.knoldus
 import org.scalatest.funsuite.AnyFunSuite
 
-class factorialUsingRecursionTest extends AnyFunSuite {
+class FactorialTest extends AnyFunSuite {
   test("to check if result is correct for 5") {
     assert(factorialUsingRecursion.recursiveFactorial(5, 1) === 120)
     println(factorialUsingRecursion.recursiveFactorial(5,1))
